@@ -1,0 +1,52 @@
+﻿using LKZ.Utilitys;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.Networking;
+
+namespace LKZ.VoiceSynthesis
+{ 
+
+    /// <summary>
+    ///  语音合成
+    /// </summary>
+    public static class VoiceTTS
+    {
+        public const string ErrorMess = "语音识别出错了";
+
+        static int voiceID;
+        public static int VoiceID
+        {
+            get => voiceID; set
+            {
+                voiceID = value;
+                DataSave.SetVoiceID(voiceID);
+            }
+        }
+
+        static VoiceTTS()
+        {
+            voiceID = DataSave.GetVoiceID();
+        }
+
+        public static IEnumerator Synthesis(string content)
+        { 
+            using (var request = UnityWebRequestMultimedia.GetAudioClip($"http://1.94.131.28:19463/tts?content={content}&id={VoiceID}", AudioType.MPEG))
+            { 
+                var result = request.SendWebRequest();
+                while (!result.isDone)
+                {
+                    yield return null;
+                }
+                if (string.IsNullOrEmpty(request.error))
+                {
+                    AudioClip _audioClip = DownloadHandlerAudioClip.GetContent(request);
+                    yield return _audioClip;
+                }
+                else
+                {
+                    yield return ErrorMess;
+                }
+            }
+        }
+    }
+}

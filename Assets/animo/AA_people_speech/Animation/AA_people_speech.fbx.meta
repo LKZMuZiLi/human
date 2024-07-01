@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: a4e52ebd73a565e49bcee5a66042bfaf
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: -1567125249491639128
+    second: AA_stand_people_speech_01
+  - first:
+      74: -2355929853765545693
+    second: AA_stand_people_speech_02
+  - first:
+      74: -5626291447320521068
+    second: AA_stand_people_speech_03
+  - first:
+      74: 1440155516493831484
+    second: AA_stand_people_speech_04
+  - first:
+      74: 7859446202357116388
+    second: AA_stand_people_speech_05
+  - first:
+      74: 6569281615114378565
+    second: AA_stand_people_speech_06
+  - first:
+      74: -7406863385660553415
+    second: AA_stand_people_speech_07
+  - first:
+      74: 8839691221187357817
+    second: AA_stand_people_speech_08
+  - first:
+      74: -8629244210514702320
+    second: AA_stand_people_speech_09
+  - first:
+      74: -4740965056190120262
+    second: AA_stand_people_speech_10
+  - first:
+      74: 2771831829002305493
+    second: AA_stand_people_speech_11
+  - first:
+      74: 7704148613071256448
+    second: AA_stand_people_speech_12
+  - first:
+      74: 2041101077230387849
+    second: AA_stand_people_speech_13
+  - first:
+      74: -1352278115623413894
+    second: AA_stand_people_speech_14
+  - first:
+      74: 8460365885939217598
+    second: AA_stand_people_speech_15
+  - first:
+      74: -3242436607327072057
+    second: AA_stand_people_speech_16
+  - first:
+      74: 5107827626069942018
+    second: AA_stand_people_speech_17
+  - first:
+      74: 5361269219817699105
+    second: AA_stand_people_speech_18
+  - first:
+      74: 9067934270294695317
+    second: AA_stand_people_speech_19
+  - first:
+      74: 4905644143557406120
+    second: AA_stand_people_speech_20
+  - first:
+      74: 1479891035242697175
+    second: AA_stand_people_speech_21
+  - first:
+      74: -8726488359320251940
+    second: AA_stand_people_speech_22
+  - first:
+      74: 6198413319387041843
+    second: AA_stand_people_speech_23
+  - first:
+      74: -7357053887863871441
+    second: AA_stand_people_speech_24
+  - first:
+      74: -4814249913734665375
+    second: AA_stand_people_speech_25
+  - first:
+      74: 6608068982731002842
+    second: AA_stand_people_speech_26
+  - first:
+      74: 5469852693256636876
+    second: AA_stand_people_speech_27
+  - first:
+      74: 7431534098299173689
+    second: AA_stand_people_speech_28
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'AA_stand_people_speech_01' has import animation
+      warnings that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_02' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_03'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_04' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_05' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_06'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_07' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_08' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_09'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_10' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_11' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_12'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_13' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_14' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_15'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_16' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_17' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_18'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_19' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_20' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_21'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_22' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_23' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_24'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_25' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AA_stand_people_speech_26' has import animation warnings that might lower
+      retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AA_stand_people_speech_27'
+      has import animation warnings that might lower retargeting quality:\n\t'Robot:Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'AA_stand_people_speech_28' has import animation warnings
+      that might lower retargeting quality:\n\t'Robot:Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AA_stand_people_speech_01
+      takeName: AA_stand_people_speech_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 702
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -0.02
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_02
+      takeName: AA_stand_people_speech_02
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 845
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_03
+      takeName: AA_stand_people_speech_03
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 710
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_04
+      takeName: AA_stand_people_speech_04
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 780
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_05
+      takeName: AA_stand_people_speech_05
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 723
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_06
+      takeName: AA_stand_people_speech_06
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 700
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_07
+      takeName: AA_stand_people_speech_07
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 855
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_08
+      takeName: AA_stand_people_speech_08
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 785
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_09
+      takeName: AA_stand_people_speech_09
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 820
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_10
+      takeName: AA_stand_people_speech_10
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 850
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_11
+      takeName: AA_stand_people_speech_11
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 795
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_12
+      takeName: AA_stand_people_speech_12
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 830
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_13
+      takeName: AA_stand_people_speech_13
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 810
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_14
+      takeName: AA_stand_people_speech_14
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 835
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_15
+      takeName: AA_stand_people_speech_15
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 770
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0.02
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_16
+      takeName: AA_stand_people_speech_16
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 822
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_17
+      takeName: AA_stand_people_speech_17
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 880
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_18
+      takeName: AA_stand_people_speech_18
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 785
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_19
+      takeName: AA_stand_people_speech_19
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 840
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_20
+      takeName: AA_stand_people_speech_20
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 860
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_21
+      takeName: AA_stand_people_speech_21
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 802
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_22
+      takeName: AA_stand_people_speech_22
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_23
+      takeName: AA_stand_people_speech_23
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 850
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_24
+      takeName: AA_stand_people_speech_24
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 865
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_25
+      takeName: AA_stand_people_speech_25
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 835
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_26
+      takeName: AA_stand_people_speech_26
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 860
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_27
+      takeName: AA_stand_people_speech_27
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 907
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AA_stand_people_speech_28
+      takeName: AA_stand_people_speech_28
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 870
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Robot:Bip01 Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger12
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger22
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger32
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 L Finger42
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger12
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 R Finger42
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Robot:Bip01 Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: AA_people_speech(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.012552301, z: 0, w: 0.99992126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot:Bip01
+      parentName: AA_people_speech(Clone)
+      position: {x: 9.763623e-10, y: 0.8747788, z: -0.000000038646093}
+      rotation: {x: -0.49968767, y: 0.49160486, z: 0.49567756, w: 0.5127775}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: Robot:Bip01 Pelvis
+      parentName: Robot:Bip01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot:Bip01 Spine
+      parentName: Robot:Bip01 Pelvis
+      position: {x: -0.045978773, y: -0.000008839123, z: 0.00000022377534}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot:Bip01 Spine1
+      parentName: Robot:Bip01 Spine
+      position: {x: -0.047060966, y: -0.00003667475, z: -1.0173539e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot:Bip01 Spine2
+      parentName: Robot:Bip01 Spine1
+      position: {x: -0.046057127, y: -0.000037671933, z: -1.0988679e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot:Bip01 Spine3
+      parentName: Robot:Bip01 Spine2
+      position: {x: -0.04732044, y: -0.00004849912, z: -1.455571e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 Neck
+      parentName: Robot:Bip01 Spine3
+      position: {x: -0.051972006, y: 0.00018925674, z: 0.0000027205595}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot:Bip01 Head
+      parentName: Robot:Bip01 Neck
+      position: {x: -0.038973656, y: -0.0048503876, z: -0.00000026329704}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Robot:Bip01 HeadNub
+      parentName: Robot:Bip01 Head
+      position: {x: -0.09604965, y: 0.0000000023841857, z: 2.910383e-13}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot:Bip01 L Clavicle
+      parentName: Robot:Bip01 Spine3
+      position: {x: -0.033103406, y: 0.0019821066, z: 0.0073978654}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Robot:Bip01 L UpperArm
+      parentName: Robot:Bip01 L Clavicle
+      position: {x: -0.0681795, y: 4.727089e-10, z: -0.00000003859517}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: Robot:Bip01 L Forearm
+      parentName: Robot:Bip01 L UpperArm
+      position: {x: -0.10987167, y: -0.0000000022097668, z: -0.000000018662314}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Robot:Bip01 L Hand
+      parentName: Robot:Bip01 L Forearm
+      position: {x: -0.097137846, y: 0.000000013779529, z: 8.6993523e-10}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Robot:Bip01 L Finger0
+      parentName: Robot:Bip01 L Hand
+      position: {x: -0.012757911, y: 0.0054097427, z: -0.009747098}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 0.9999996, y: 1.0000001, z: 0.9999994}
+    - name: Robot:Bip01 L Finger01
+      parentName: Robot:Bip01 L Finger0
+      position: {x: -0.02027769, y: -0.000000018388915, z: -3.1354705e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Robot:Bip01 L Finger02
+      parentName: Robot:Bip01 L Finger01
+      position: {x: -0.012345238, y: -0.0000000101153885, z: -0.000000019167592}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 L Finger0Nub
+      parentName: Robot:Bip01 L Finger02
+      position: {x: -0.009308643, y: 0.000000009536743, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Robot:Bip01 L Finger1
+      parentName: Robot:Bip01 L Hand
+      position: {x: -0.040153045, y: -0.0034646213, z: -0.012662382}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999976}
+    - name: Robot:Bip01 L Finger11
+      parentName: Robot:Bip01 L Finger1
+      position: {x: -0.012634105, y: 2.9295935e-10, z: -1.71342e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Robot:Bip01 L Finger12
+      parentName: Robot:Bip01 L Finger11
+      position: {x: -0.008889407, y: 4.295436e-10, z: -3.1801228e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Robot:Bip01 L Finger1Nub
+      parentName: Robot:Bip01 L Finger12
+      position: {x: -0.0083720395, y: -0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Robot:Bip01 L Finger2
+      parentName: Robot:Bip01 L Hand
+      position: {x: -0.041202355, y: -0.0040405844, z: -0.0034184596}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999946}
+    - name: Robot:Bip01 L Finger21
+      parentName: Robot:Bip01 L Finger2
+      position: {x: -0.014117126, y: 0.0000000050277844, z: -0.0000000049529842}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Robot:Bip01 L Finger22
+      parentName: Robot:Bip01 L Finger21
+      position: {x: -0.00887495, y: -0.000000009615146, z: 0.000000009332998}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Robot:Bip01 L Finger2Nub
+      parentName: Robot:Bip01 L Finger22
+      position: {x: -0.00764307, y: 0, z: -0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Robot:Bip01 L Finger3
+      parentName: Robot:Bip01 L Hand
+      position: {x: -0.040339813, y: -0.0027970038, z: 0.0059018373}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999991, z: 1}
+    - name: Robot:Bip01 L Finger31
+      parentName: Robot:Bip01 L Finger3
+      position: {x: -0.0123349, y: -0.000000009372127, z: -0.000000012076864}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Robot:Bip01 L Finger32
+      parentName: Robot:Bip01 L Finger31
+      position: {x: -0.00774662, y: 0.0000000124338575, z: 0.0000000070013297}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Robot:Bip01 L Finger3Nub
+      parentName: Robot:Bip01 L Finger32
+      position: {x: -0.00665514, y: 0, z: -0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Robot:Bip01 L Finger4
+      parentName: Robot:Bip01 L Hand
+      position: {x: -0.03381939, y: -0.002026155, z: 0.012984686}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.99999946}
+    - name: Robot:Bip01 L Finger41
+      parentName: Robot:Bip01 L Finger4
+      position: {x: -0.009867744, y: -0.00000001881758, z: 2.308905e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: Robot:Bip01 L Finger42
+      parentName: Robot:Bip01 L Finger41
+      position: {x: -0.0074948883, y: 0.0000000054875113, z: -0.000000008984541}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Robot:Bip01 L Finger4Nub
+      parentName: Robot:Bip01 L Finger42
+      position: {x: -0.005802364, y: -0.0000000047683715, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Robot:Bip01 R Clavicle
+      parentName: Robot:Bip01 Spine3
+      position: {x: -0.033103406, y: 0.001982145, z: -0.0073978547}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Robot:Bip01 R UpperArm
+      parentName: Robot:Bip01 R Clavicle
+      position: {x: -0.06817949, y: 0.0000000097392485, z: 0.000000038648714}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Robot:Bip01 R Forearm
+      parentName: Robot:Bip01 R UpperArm
+      position: {x: -0.10987163, y: 0.000000009330407, z: -0.0000000018971407}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Robot:Bip01 R Hand
+      parentName: Robot:Bip01 R Forearm
+      position: {x: -0.097137846, y: 0.000000007804766, z: -0.0000000017258396}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Robot:Bip01 R Finger0
+      parentName: Robot:Bip01 R Hand
+      position: {x: -0.012757873, y: 0.0054097315, z: 0.009747083}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.99999976, y: 1.0000004, z: 0.9999998}
+    - name: Robot:Bip01 R Finger01
+      parentName: Robot:Bip01 R Finger0
+      position: {x: -0.02027769, y: 0.0000000017521398, z: 6.857881e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Robot:Bip01 R Finger02
+      parentName: Robot:Bip01 R Finger01
+      position: {x: -0.012345238, y: -0.0000000098320045, z: 0.000000028952197}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 R Finger0Nub
+      parentName: Robot:Bip01 R Finger02
+      position: {x: -0.009308643, y: 0.000000009536743, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -0.99999994, z: -1}
+    - name: Robot:Bip01 R Finger1
+      parentName: Robot:Bip01 R Hand
+      position: {x: -0.040153045, y: -0.0034646078, z: 0.012662366}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: Robot:Bip01 R Finger11
+      parentName: Robot:Bip01 R Finger1
+      position: {x: -0.012634086, y: 4.1302048e-10, z: -5.019053e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 R Finger12
+      parentName: Robot:Bip01 R Finger11
+      position: {x: -0.008889389, y: 3.2163838e-10, z: -2.4251234e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Robot:Bip01 R Finger1Nub
+      parentName: Robot:Bip01 R Finger12
+      position: {x: -0.008372059, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -0.99999994, z: -1}
+    - name: Robot:Bip01 R Finger2
+      parentName: Robot:Bip01 R Hand
+      position: {x: -0.041202355, y: -0.0040405896, z: 0.0034184437}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999996}
+    - name: Robot:Bip01 R Finger21
+      parentName: Robot:Bip01 R Finger2
+      position: {x: -0.014117126, y: 0.0000000049867146, z: 0.0000000044176347}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Robot:Bip01 R Finger22
+      parentName: Robot:Bip01 R Finger21
+      position: {x: -0.008874931, y: -0.000000014487763, z: -0.0000000048836277}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: Robot:Bip01 R Finger2Nub
+      parentName: Robot:Bip01 R Finger22
+      position: {x: -0.007643089, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -0.99999994, y: -0.99999994, z: -0.9999998}
+    - name: Robot:Bip01 R Finger3
+      parentName: Robot:Bip01 R Hand
+      position: {x: -0.040339813, y: -0.0027969985, z: -0.0059018484}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.9999994, z: 1.0000004}
+    - name: Robot:Bip01 R Finger31
+      parentName: Robot:Bip01 R Finger3
+      position: {x: -0.0123349, y: 1.781551e-11, z: -0.0000000015284959}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 R Finger32
+      parentName: Robot:Bip01 R Finger31
+      position: {x: -0.00774662, y: 0.0000000024188331, z: -0.000000009575255}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Robot:Bip01 R Finger3Nub
+      parentName: Robot:Bip01 R Finger32
+      position: {x: -0.0066551208, y: 0, z: 0.000000007152557}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Robot:Bip01 R Finger4
+      parentName: Robot:Bip01 R Hand
+      position: {x: -0.03381939, y: -0.0020261533, z: -0.012984702}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.9999999}
+    - name: Robot:Bip01 R Finger41
+      parentName: Robot:Bip01 R Finger4
+      position: {x: -0.0098677445, y: -0.000000009493358, z: -0.000000009652309}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: Robot:Bip01 R Finger42
+      parentName: Robot:Bip01 R Finger41
+      position: {x: -0.0074948883, y: -0.0000000041498596, z: -5.587715e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Robot:Bip01 R Finger4Nub
+      parentName: Robot:Bip01 R Finger42
+      position: {x: -0.005802345, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -0.99999994, y: -0.99999994, z: -1}
+    - name: Robot:Bip01 L Thigh
+      parentName: Robot:Bip01 Pelvis
+      position: {x: 0.000000038146972, y: 0.00000006363133, z: 0.03490716}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Robot:Bip01 L Calf
+      parentName: Robot:Bip01 L Thigh
+      position: {x: -0.15113585, y: -3.7481127e-15, z: -0.0000000047683613}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 L Foot
+      parentName: Robot:Bip01 L Calf
+      position: {x: -0.16097513, y: 0.0000000018012565, z: 0.0000000047683812}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Robot:Bip01 L Toe0
+      parentName: Robot:Bip01 L Foot
+      position: {x: -0.031308234, y: 0.054327764, z: -0.00010971357}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 L Toe0Nub
+      parentName: Robot:Bip01 L Toe0
+      position: {x: -0.03193655, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1.0000001, y: -1.0000001, z: -1.0000001}
+    - name: Robot:Bip01 R Thigh
+      parentName: Robot:Bip01 Pelvis
+      position: {x: -0.000000038146972, y: -0.0000000331872, z: -0.03490716}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Robot:Bip01 R Calf
+      parentName: Robot:Bip01 R Thigh
+      position: {x: -0.15113585, y: 5.96031e-10, z: -2.6423307e-15}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Robot:Bip01 R Foot
+      parentName: Robot:Bip01 R Calf
+      position: {x: -0.16097513, y: 0.0000000022104503, z: -4.3476333e-15}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Robot:Bip01 R Toe0
+      parentName: Robot:Bip01 R Foot
+      position: {x: -0.031308237, y: 0.054327767, z: 0.00010971993}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Robot:Bip01 R Toe0Nub
+      parentName: Robot:Bip01 R Toe0
+      position: {x: -0.031936552, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

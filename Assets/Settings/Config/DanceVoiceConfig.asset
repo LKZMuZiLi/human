@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bbc4d44c53d25418bbea46216a41b6, type: 3}
+  m_Name: DanceVoiceConfig
+  m_EditorClassIdentifier: 
+  voiceUri:
+  - https://unity.qny.lkz.fit/digital/dance_voice/1.mp3
+  - https://unity.qny.lkz.fit/digital/dance_voice/2.mp3
+  - https://unity.qny.lkz.fit/digital/dance_voice/3.mp3
+  - https://unity.qny.lkz.fit/digital/dance_voice/4.mp3
+  - https://unity.qny.lkz.fit/digital/dance_voice/5.mp3
+  - https://unity.qny.lkz.fit/digital/dance_voice/ke_mu_san.mp3
