@@ -1,6 +1,6 @@
 # Unity 数字人
 这个版本数字人是我从 https://kz88.us 主要的剥离出来
-开发一个开源版本
+开发一个开源版本(windows)
 
 #### 效果 
 ![动力支持](human_example.png)   
@@ -29,6 +29,18 @@ Url ： 对接大语言模型的http地址
 Model：对接大语言模型应用那个模型(如chatgpt3.5)  
 Key：大语言模型的授权密钥  
 RoleSetting：(非必填)进行LLM System预设，让它站在某一个人或者某一些信息上回答问题  
+
+
+
+#### 与Fay结合使用
+
+Fay数字人开源框架地址：https://github.com/xszyou/fay
+
+![img](fay.png)
+
+请复制：http://127.0.0.1:5000/v1/chat/completions
+
+
 
 #### 加入知识交流群
 ![作者微信](737dff38_10906743.png)    

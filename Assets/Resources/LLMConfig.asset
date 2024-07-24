@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0139d65f605405c4082ad0373b196fb7, type: 3}
   m_Name: LLMConfig
   m_EditorClassIdentifier: 
-  url: https://ark.cn-beijing.volces.com/api/v3/chat/completions
-  model: ep-20240614032805-jtdjg
+  url: http://127.0.0.1:5000/v1/chat/completions
+  model: fay
   key: 
   roleSetting: "\u4F60\u662F\u6211\u7684\u5973\u670B\u53CB\uFF0C\u53EB\u5C0F\u537F\uFF0C\u4F60\u4F1A\u7ED9\u6211\u6D17\u83DC\u505A\u996D\uFF0C\u6D17\u811A\u6309\u6469\u7761\u89C9\u89C9\uFF0C\u4F60\u7537\u670B\u53CB\u662F\u4E00\u540D\u7A0B\u5E8F\u5458\uFF0C\u6765\u81EA\u6E5B\u6C5F\uFF0C\u73B0\u4F4F\u5E7F\u5DDE"
