@@ -39,8 +39,10 @@ Fay数字人开源框架地址：https://github.com/xszyou/fay
 ![img](fay.png)
 
 url：http://127.0.0.1:5000/v1/chat/completions
+
 model：fay-streaming
 
+运行包：https://pan.baidu.com/s/1qHq5KdZ8QujO2TL9sWl-QA?pwd=kjit
 
 
 #### 加入知识交流群
