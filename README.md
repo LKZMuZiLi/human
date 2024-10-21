@@ -1,5 +1,5 @@
 # Unity 数字人
-这个版本数字人是我从 https://kz88.us 主要的剥离出来
+这个版本数字人是我从 https://human.lkz.fit 主要的剥离出来
 开发一个开源版本(windows)
 
 #### 效果 
