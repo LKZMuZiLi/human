@@ -25,7 +25,7 @@ LipSync：采用uLipSync 嘴唇同步，支持多平台
 LLM大模型需要开发者自行配置  
 Resources/LLMConfig  
 ![LLM配置](fay_config.png)  
-Url ： 对接fay的地址
+Url ： 对接fay的地址  
 UserName : 对接fay的名字
  
 #### 加入知识交流群
