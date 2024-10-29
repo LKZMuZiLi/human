@@ -28,9 +28,9 @@ namespace LKZ.VoiceSynthesis
             voiceID = DataSave.GetVoiceID();
         }
 
-        public static IEnumerator Synthesis(string content)
+        public static IEnumerator Synthesis(string url)
         { 
-            using (var request = UnityWebRequestMultimedia.GetAudioClip($"http://1.94.131.28:19463/tts?content={content}&id={VoiceID}", AudioType.MPEG))
+            using (var request = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.MPEG))
             { 
                 var result = request.SendWebRequest();
                 while (!result.isDone)

@@ -4,11 +4,6 @@ using LKZ.Commands.Voice;
 using LKZ.DependencyInject;
 using LKZ.Logics;
 using LKZ.TypeEventSystem;
-using LKZ.Voice;
-using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 
 namespace LKZ.Manager
@@ -22,8 +17,7 @@ namespace LKZ.Manager
 你可以语音和我聊天
 如果你有其他需求，请联系wx:LKZ4251";
 
-
-        private VoiceRecognizerModel voiceRecognizer;
+         
         private LLMLogic  llmLogic;
 
         [Inject]
@@ -33,9 +27,7 @@ namespace LKZ.Manager
         {
             registerBinding.Binding<MonoBehaviour>().To(this);
 
-
-            voiceRecognizer = new VoiceRecognizerModel();
-            registerBinding.Binding<VoiceRecognizerModel>().To(voiceRecognizer);
+             
 
             llmLogic = new LLMLogic();
             registerBinding.Binding<LLMLogic>().To(llmLogic);
@@ -56,10 +48,8 @@ namespace LKZ.Manager
          
 
         private void Start()
-        {  
-            SceneDependencyInjectContextManager.Instance.InjectProperty(voiceRecognizer);
-            SceneDependencyInjectContextManager.Instance.InjectProperty(llmLogic);
-            voiceRecognizer.Initialized();
+        {   
+            SceneDependencyInjectContextManager.Instance.InjectProperty(llmLogic); 
             llmLogic.Initialized();
 
             SendCommand.Send(new AddChatContentCommand { infoType = Enum.InfoType.ChatGPT, _addTextAction = value => value.Invoke(StartContent) });
@@ -71,8 +61,7 @@ namespace LKZ.Manager
 
 
         private void OnDestroy()
-        {
-            voiceRecognizer.OnDestroy();
+        { 
         }
     }
 }
