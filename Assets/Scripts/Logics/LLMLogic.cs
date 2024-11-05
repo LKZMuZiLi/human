@@ -2,13 +2,16 @@
 using LKZ.Commands.Chat;
 using LKZ.Commands.Voice;
 using LKZ.DependencyInject;
-using LKZ.GPT;
 using LKZ.Models;
 using LKZ.TypeEventSystem;
 using LKZ.VoiceSynthesis;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Net.WebSockets;
+using System.Text;
+using System.Threading.Tasks;
 using UnityEngine;
 
 namespace LKZ.Logics
@@ -82,13 +85,96 @@ namespace LKZ.Logics
         /// </summary>
         private Coroutine _requestGPTSegmentationCor;
 
+
+        ClientWebSocket webSocket;
+
+        LLMConfig config;
         public void Initialized()
         {
-            RegisterCommand.Register<VoiceRecognitionResultCommand>(VoiceRecognitionResultCommandCallback);
-            
             RegisterCommand.Register<StopGenerateCommand>(StopGenerateCommandCallback);
+            config = Resources.Load<LLMConfig>("LLMConfig");
+            ConnectServer();
+
         }
-         
+
+        async void ConnectServer()
+        {
+            while (true)
+            {
+                try
+                {
+                    webSocket = new ClientWebSocket();
+
+                    await webSocket.ConnectAsync(new Uri( config.uri), default);
+
+                    await webSocket.SendAsync(Encoding.UTF8.GetBytes(config.userName), WebSocketMessageType.Binary, true, default);
+                    break;
+                }
+                catch
+                { 
+                    await Task.Delay(1000);
+                }
+            }
+
+            ReceiveData();
+
+
+        }
+
+        async void ReceiveData()
+        {
+            byte[] p = new byte[1024 * 1024];
+            int count = 0;
+
+            try
+            {
+                while (true)
+                {
+                    var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(p, count, p.Length - count), default);
+                    count += result.Count;
+                    if (result.EndOfMessage)
+                    {
+                        var str = Encoding.UTF8.GetString(p, 0, count);
+                        try
+                        {
+                            Debug.Log(str);
+                            var t = Newtonsoft.Json.Linq.JToken.Parse(str);
+                            var data = t["Data"];
+                            var key = data["Key"].ToString();
+                            if (key == "question")
+                            {
+                                SendCommand.Send(new AddChatContentCommand { infoType = Enum.InfoType.My, _addTextAction = value => _showUITextAction = value });
+                                _showUITextAction?.Invoke(data["Value"].ToString());
+                                isStopCreate = false;
+                            }
+                            else if (key == "audio")
+                            {
+                                SendCommand.Send(new AddChatContentCommand { infoType = Enum.InfoType.ChatGPT, _addTextAction = value => _showUITextAction = value });
+
+                                ClearGPTVoice();
+                                ChatGPTRequestCallback(data["HttpValue"].ToString(), data["Text"].ToString(), true);
+                                isStopCreate = false;
+
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.Log(ex.Message);
+                        }
+
+
+
+                        count = 0;
+                    }
+                }
+            }
+            catch
+            {
+                ConnectServer();
+            }
+
+        }
+
         private void StopGenerateCommandCallback(StopGenerateCommand obj)
         {
             if (!object.ReferenceEquals(null, _titleSynchronization_Cor))
@@ -101,55 +187,22 @@ namespace LKZ.Logics
 
             PlayFinish();
         }
-
-        /// <summary>
-        /// 语音识别到内容回调
-        /// </summary>
-        /// <param name="obj"></param>
-        private void VoiceRecognitionResultCommandCallback(VoiceRecognitionResultCommand obj)
-        {
-            if (!obj.IsComplete)
-            {
-                if (_showUITextAction == null)
-                    SendCommand.Send(new AddChatContentCommand { infoType = Enum.InfoType.My, _addTextAction = value => _showUITextAction = value });
-
-                _showUITextAction.Invoke(obj.text);
-
-                onceResult += obj.text;
-            }
-            else
-            {
-                if (string.IsNullOrEmpty(onceResult))
-                    return;
-
-                SendCommand.Send(new SettingVoiceRecognitionCommand { IsStartVoiceRecognition = false });//停止语音识别
-
-                SendCommand.Send(new AddChatContentCommand { infoType = Enum.InfoType.ChatGPT, _addTextAction = value => _showUITextAction = value });
-
-                ClearGPTVoice();
-
-                 _requestGPTSegmentationCor = _mono.StartCoroutine(LLM.Request(onceResult, ChatGPTRequestCallback));
-                onceResult = string.Empty;
-                isStopCreate = false;
-            }
-        }
-
-        private void ChatGPTRequestCallback(string arg1, bool arg2)
+         
+        private void ChatGPTRequestCallback(string url, string arg1, bool arg2)
         {
             if (!string.IsNullOrEmpty(arg1))
-                _mono.StartCoroutine(SynthesisCoroutine(arg1));
-             
+                _mono.StartCoroutine(SynthesisCoroutine(url, arg1));
+
             isRequestChatGPTContent = arg2;
 
         }
-
-
-        private IEnumerator SynthesisCoroutine(string text)
+         
+        private IEnumerator SynthesisCoroutine(string url, string text)
         {
-            IEnumerator youdaoIE = VoiceTTS.Synthesis(text);
+            IEnumerator youdaoIE = VoiceTTS.Synthesis(url);
 
             gptVoice.Enqueue(new ResultData { clip = youdaoIE, result = text });
-             
+
             yield return youdaoIE;
             if (_titleSynchronization_Cor == null)
                 _titleSynchronization_Cor = _mono.StartCoroutine(TitleSynchronizationCoroutine());
@@ -166,14 +219,13 @@ namespace LKZ.Logics
 
             int lastIndex = -1;
             while (!isStopCreate && (gptVoice.Count > 0 || !isRequestChatGPTContent))
-            { 
+            {
                 if (gptVoice.Count == 0)
                 {
                     yield return null;
                     continue;
                 }
-                ResultData result = gptVoice.Dequeue();
-
+                ResultData result = gptVoice.Dequeue(); 
                 yield return result;
                 if (result.clip.Current is AudioClip clip)
                 {
@@ -183,7 +235,7 @@ namespace LKZ.Logics
                     yield return null;
                     yield return null;
 
-                     
+
                     while (true)
                     {
                         if (audioModel.Time == clip.length || !audioModel.IsPlaying || _showUITextAction == null)
@@ -238,7 +290,7 @@ namespace LKZ.Logics
             _titleSynchronization_Cor = null;
             ClearGPTVoice();
 
-            SendCommand.Send(new SettingVoiceRecognitionCommand { IsStartVoiceRecognition = true });//开始语音识别
+
             SendCommand.Send(new GenerateFinishCommand { });//生成完成命令
 
             _showUITextAction = null;

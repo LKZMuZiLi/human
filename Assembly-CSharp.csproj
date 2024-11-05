@@ -87,9 +87,7 @@
     <Compile Include="Assets\Scripts\UI\Voice\VoiceTTSIDSetting.cs" />
     <Compile Include="Assets\Scripts\Manager\GameApp.cs" />
     <Compile Include="Assets\Scripts\Commands\Chat\AddChatContentCommand.cs" />
-    <Compile Include="Assets\Scripts\Models\VoiceRecognizerModel.cs" />
     <Compile Include="Assets\TransparentWindow\TransparentWindow.cs" />
-    <Compile Include="Assets\Scripts\LLM\LLM.cs" />
     <Compile Include="Assets\Scripts\Commands\Chat\GenerateFinishCommand.cs" />
     <Compile Include="Assets\Scripts\UI\Events\ClickEvent.cs" />
   </ItemGroup>
