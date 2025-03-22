@@ -22,7 +22,7 @@ LipSync：采用uLipSync 嘴唇同步，支持多平台
 建议使用2022版本及以上进行开发，否则URP管线的包体需要自行处理报错问题
 
 #### 使用说明
-LLM大模型需要开发者自行配置  
+
 Resources/LLMConfig  
 ![LLM配置](LLMConfig.jpeg)  
 Url ： 对接大语言模型的http地址  
@@ -30,13 +30,25 @@ Model：对接大语言模型应用那个模型(如chatgpt3.5)
 Key：大语言模型的授权密钥  
 RoleSetting：(非必填)进行LLM System预设，让它站在某一个人或者某一些信息上回答问题  
 
-
-
 #### 与Fay结合使用
 
 Fay数字人开源框架地址：https://github.com/xszyou/fay
 
-![img](fay.png)
+LLM大模型需要开发者自行配置  
+参考https://qqk9ntwbcit.feishu.cn/wiki/V5qcwlikKiehoYkAPhYcmBPAnAc
+
+fay设置界面
+![LLM配置](set.png)  
+
+第一步：参考图中设置：关闭唤醒、关闭麦克风、关闭扬声器
+
+第二步：设定人物信息
+
+第三步：保存当前设置
+
+第四步：启动服务
+
+![img](unity.png)
 
 url：http://127.0.0.1:5000/v1/chat/completions
 
